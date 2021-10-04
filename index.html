@@ -145,36 +145,45 @@
         <h3 style="text-align: center">Some Projects I've Worked On</h3>
 
         <div class="post-wrapper">
-          <div class="post">
-            <img id="social_img" class="thumbnail" src="images/Project.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">Chat Application</h6>
-              <p class="post-intro">
-                Real time chat application built out using React and Firebase.
-              </p>
-              <a href="#">Read More</a>
+          <div>
+            <div class="post">
+              <img id="social_img" class="thumbnail" src="images/Project.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Chat Application</h6>
+                <p class="post-intro">
+                  Real time chat application built out using React and Firebase.
+                </p>
+                <a href="post.html">Read More</a>
+              </div>
             </div>
           </div>
 
-          <div class="post">
-            <img id="social_img" class="thumbnail" src="images/Project.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">E Commerce Application built out using React.</h6>
-              <p class="post-intro">
-                This is a sentence. Sample text to be changed.
-              </p>
-              <a href="#">Read More</a>
+          <div>
+            <div class="post">
+              <img id="social_img" class="thumbnail" src="images/Project.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">
+                  E Commerce Application built out using React.
+                </h6>
+                <p class="post-intro">
+                  This is a sentence. Sample text to be changed.
+                </p>
+                <a href="#">Read More</a>
+              </div>
             </div>
           </div>
 
-          <div class="post">
-            <img id="social_img" class="thumbnail" src="images/Project.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">Sample App Name</h6>
-              <p class="post-intro">
-                This is just placeholder text until I build out this application.
-              </p>
-              <a href="#">Read More</a>
+          <div>
+            <div class="post">
+              <img id="social_img" class="thumbnail" src="images/Project.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Sample App Name</h6>
+                <p class="post-intro">
+                  This is just placeholder text until I build out this
+                  application.
+                </p>
+                <a href="#">Read More</a>
+              </div>
             </div>
           </div>
         </div>
@@ -182,7 +191,25 @@
     </section>
 
     <section class="s2">
-      <div class="main-container">Contact</div>
+      <div class="main-container">
+        <h3 style="text-align: center">Get In Touch</h3>
+
+        <form id="contact-form">
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" />
+
+          <label>Subject</label>
+          <input class="input-field" type="text" name="subject" />
+
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" />
+
+          <label>Message</label>
+          <textarea class ="input-field"  name="message"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
     </section>
   </body>
 </html>
